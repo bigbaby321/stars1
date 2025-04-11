@@ -125,10 +125,10 @@ def handle_button(update: Update, context: CallbackContext):
         end = start + per_page
         current = logs[start:end]
 
-        text = "*📜 Lịch sử giao dịch:*"
+        text = "📜 Lịch sử giao dịch:"
 
 " + "
-".join(current) if current else "📜 *Không có giao dịch.*"
+.join(current) if current else "🔍 Không có giao dịch."
 
         buttons = []
         if page > 0:
