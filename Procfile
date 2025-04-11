@@ -1,1 +1,1 @@
-python telegram_star_bot_final_custom_path.py
+python main.py
